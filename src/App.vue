@@ -331,7 +331,7 @@
         <p class="font-normal text-[18px] leading-[22px] max-w-[473px] w-full">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
       </div>
     </section>
-    <section>
+    <section class="mb-[60px]">
       <div class="container">
         <div class="flex items-center justify-between min-h-screen bg-gray-100 rounded-[45px]">
           <div class="px-[40px] rounded-lg  w-full max-w-md relative">
