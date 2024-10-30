@@ -16,7 +16,7 @@
   </header>
   <main>
     <section>
-      <div class="container flex items-center justify-between">
+      <div class="container md:flex items-center justify-between">
         <div>
           <h1 class="font-medium text-black text-[60px] leading-[76px] max-w-[531px] w-full mb-[35px]">Navigating the digital landscape for success</h1>
           <p class="font-normal text-[20px] leading-[28px] text-black max-w-[450px] w-full mb-[35px]">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
@@ -26,23 +26,23 @@
       </div>
     </section>
     <section>
-      <div class="container flex justify-between mt-[70px]">
-       <img src="../public/Companylogo.png" alt="">
-       <img src="../public/Company logo (1).png" alt="">
-       <img src="../public/Company logo (2).png" alt="">
-       <img src="../public/Company logo (3).png" alt="">
-       <img src="../public/Company logo (4).png" alt="">
-       <img src="../public/Company logo (5).png" alt="">
+      <div class="container md:flex justify-between mt-[70px]">
+       <img class="mb-[15px]" src="../public/Companylogo.png" alt="">
+       <img class="mb-[15px]" src="../public/Company logo (1).png" alt="">
+       <img class="mb-[15px]" src="../public/Company logo (2).png" alt="">
+       <img class="mb-[15px]" src="../public/Company logo (3).png" alt="">
+       <img class="mb-[15px]" src="../public/Company logo (4).png" alt="">
+       <img class="mb-[15px]" src="../public/Company logo (5).png" alt="">
       </div>
     </section>
     <section>
-      <div class="container flex items-center gap-[40px] mt-[100px] mb-[50px]">
+      <div class="container md:flex items-center gap-[40px] mt-[100px] mb-[50px]">
         <span class="bg-[#B9FF66] font-medium text-[40px] text-black px-[10px] rounded-[7px]">Services</span>
         <p class="font-normal text-[18px] leading-[22px] max-w-[540px] w-full">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
       </div>
     </section>
     <section>
-     <div class="container flex items-center  min-h-screen">
+     <div class="container md:flex items-center  min-h-screen">
       <div class="grid gap-6 lg:grid-cols-2 max-w-4xl p-4">
     
     <!-- SEO Card -->
@@ -104,7 +104,7 @@
     </section>
     <section>
       <div class="container mt-[123px]">
-        <div class=" bg-[#F3F3F3] flex items-center justify-between rounded-[45px]">
+        <div class=" bg-[#F3F3F3] md:flex items-center justify-between rounded-[45px]">
           <div class="px-[50px]">
             <h3 class="font-medium text-[30px] text-black mb-[26px]">Let’s make things happen</h3>
             <p class="font-normal text-[18px] leading-[22px] text-black max-w-[500px] w-full mb-[26px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
@@ -115,13 +115,13 @@
       </div>
     </section>
     <section>
-      <div class="container flex items-center gap-[40px] mt-[100px] mb-[80px]">
+      <div class="container md:flex items-center gap-[40px] mt-[100px] mb-[80px]">
         <span class="bg-[#B9FF66] font-medium text-[40px] text-black px-[10px] rounded-[7px]">Case Studies</span>
         <p class="font-normal text-[18px] leading-[22px] max-w-[540px] w-full">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
       </div>
     </section>
     <section>
-      <div class="container bg-[#191A23] text-white flex justify-center items-center rounded-[45px]">
+      <div class="container bg-[#191A23] text-white md:flex justify-center items-center rounded-[45px]">
          <!-- Card 1 -->
          <div class="text-center border-r border-gray-700 last:border-r-0 md:last:border-none p-[40px]">
             <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
@@ -146,7 +146,7 @@
       </div>
     </section>
     <section>
-      <div class="container flex items-center gap-[40px] mt-[100px] mb-[80px]">
+      <div class="container md:flex items-center gap-[40px] mt-[100px] mb-[80px]">
         <span class="bg-[#B9FF66] font-medium text-[40px] text-black px-[10px] rounded-[7px]">Our Working Process </span>
         <p class="font-normal text-[18px] leading-[22px] max-w-[292px] w-full">Step-by-Step Guide to Achieving Your Business Goals</p>
       </div>
@@ -163,7 +163,7 @@
           <h2 class="text-xl font-semibold">Consultation</h2>
           <img class="w-[20px] ml-auto" src="../public/Plus icon.svg" alt="">
         </div>
-        <hr class="w-[1050px] border border-black mx-auto">
+        <hr class="max-w-[1050px] border border-black mx-auto">
         <div class="pl-4 ">
           <p class="text-sm text-gray-600 mt-2 max-w-[1114px] w-full mb-[10px]">
             During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.
@@ -230,19 +230,19 @@
       </div>
     </section>
     <section>
-      <div class="container flex items-center gap-[40px] mt-[100px] mb-[80px]">
+      <div class="container md:flex items-center gap-[40px] mt-[100px] mb-[80px]">
         <span class="bg-[#B9FF66] font-medium text-[40px] text-black px-[10px] rounded-[7px]">Team</span>
         <p class="font-normal text-[18px] leading-[22px] max-w-[473px] w-full">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
       </div>
     </section>
     <section class="mb-[50px]">
       <div class="container">
-        <div class="grid grid-cols-3 gap-[20px]  p-4 max-w-5xl">
+        <div class="md:grid grid-cols-3 gap-[20px] mb-[30px]  p-4 max-w-5xl">
 
     
 
     <!-- Repeat the structure for each team member -->
-    <div class="bg-white rounded-lg p-6  relative border border-[] shadow-[0_3px_0_0_#191A23]">
+    <div class="bg-white rounded-lg p-6  relative border border-[] mb-[20px] shadow-[0_3px_0_0_#191A23]">
       <div class="absolute top-4 right-4 text-green-500">
         <img class="w-[20px]" src="../public/Social icon.png" alt="">
       </div>
@@ -255,7 +255,7 @@
       </div>
       <p class="mt-4 text-gray-600">7+ years of experience in project management and team leadership. Strong organizational and communication skills.</p>
     </div>
-    <div class="bg-white rounded-lg p-6  relative border border-[] shadow-[0_3px_0_0_#191A23]">
+    <div class="bg-white rounded-lg p-6  relative border border-[] mb-[20px] shadow-[0_3px_0_0_#191A23]">
       <div class="absolute top-4 right-4 text-green-500">
         <img class="w-[20px]" src="../public/Social icon.png" alt="">
       </div>
@@ -268,7 +268,7 @@
       </div>
       <p class="mt-4 text-gray-600">7+ years of experience in project management and team leadership. Strong organizational and communication skills.</p>
     </div>
-    <div class="bg-white rounded-lg p-6  relative border border-[] shadow-[0_3px_0_0_#191A23]">
+    <div class="bg-white rounded-lg p-6  relative border border-[] mb-[20px] shadow-[0_3px_0_0_#191A23]">
       <div class="absolute top-4 right-4 text-green-500">
         <img class="w-[20px]" src="../public/Social icon.png" alt="">
       </div>
@@ -281,7 +281,7 @@
       </div>
       <p class="mt-4 text-gray-600">7+ years of experience in project management and team leadership. Strong organizational and communication skills.</p>
     </div>
-    <div class="bg-white rounded-lg p-6  relative border border-[] shadow-[0_3px_0_0_#191A23]">
+    <div class="bg-white rounded-lg p-6  relative border border-[]  mb-[20px] shadow-[0_3px_0_0_#191A23]">
       <div class="absolute top-4 right-4 text-green-500">
         <img class="w-[20px]" src="../public/Social icon.png" alt="">
       </div>
@@ -294,7 +294,7 @@
       </div>
       <p class="mt-4 text-gray-600">7+ years of experience in project management and team leadership. Strong organizational and communication skills.</p>
     </div>
-    <div class="bg-white rounded-lg p-6  relative border border-[] shadow-[0_3px_0_0_#191A23]">
+    <div class="bg-white rounded-lg p-6  relative border border-[] mb-[20px] shadow-[0_3px_0_0_#191A23]">
       <div class="absolute top-4 right-4 text-green-500">
         <img class="w-[20px]" src="../public/Social icon.png" alt="">
       </div>
@@ -307,7 +307,7 @@
       </div>
       <p class="mt-4 text-gray-600">7+ years of experience in project management and team leadership. Strong organizational and communication skills.</p>
     </div>
-    <div class="bg-white rounded-lg p-6  relative border border-[] shadow-[0_3px_0_0_#191A23]">
+    <div class="bg-white rounded-lg p-6  relative border border-[] mb-[20px] shadow-[0_3px_0_0_#191A23]">
       <div class="absolute top-4 right-4 text-green-500">
         <img class="w-[20px]" src="../public/Social icon.png" alt="">
       </div>
@@ -326,14 +326,14 @@
       </div>
     </section>
     <section>
-      <div class="container flex items-center gap-[40px] mt-[100px] mb-[80px]">
+      <div class="container md:flex items-center gap-[40px] mt-[100px] mb-[80px]">
         <span class="bg-[#B9FF66] font-medium text-[40px] text-black px-[10px] rounded-[7px]">Testimonials</span>
         <p class="font-normal text-[18px] leading-[22px] max-w-[473px] w-full">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
       </div>
     </section>
     <section class="mb-[60px]">
       <div class="container">
-        <div class="flex items-center justify-between min-h-screen bg-gray-100 rounded-[45px]">
+        <div class="md:flex items-center justify-between min-h-screen bg-gray-100 rounded-[45px]">
           <div class="px-[40px] rounded-lg  w-full max-w-md relative">
     <div class="flex justify-center mb-4">
       <label class="mr-4 flex items-center space-x-2">
@@ -373,7 +373,7 @@
     </section>
   </main>
   
-  <footer class="p-8 bg-gray-900">
+  <footer class="p-8 bg-gray-900 hidden md:block">
     <div class="container">
       <div class="max-w-screen-xl mx-auto lg:flex-row justify-between items-center lg:items-start space-y-6 lg:space-y-0">
         <div class="flex justify-between mb-[66px]">
